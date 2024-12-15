@@ -1,0 +1,98 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #E0E0E0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Table Layout Styling */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+td {
+    padding: 10px;
+}
+
+/* Header */
+header {
+    background-color: #004F87;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navigation Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul li a:hover {
+    color: #ff6347;
+    font-weight: bold;
+}
+
+/* Search Form */
+form {
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #004F87;
+}
+
+form button {
+    padding: 8px 15px;
+    background-color: #004F87;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff6347;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #004F87;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Trending Profile List */
+ul.trending-profiles {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
